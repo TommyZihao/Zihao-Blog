@@ -18,7 +18,7 @@
 
 ​        运行在Python2上的OpenCV安装非常简单，几行命令即可搞定。运行在Python3上的OpenCV安装比较麻烦，需要编译安装。**作者建议两个都安装**。不用担心，本文默认你是新手小白，会一步步指导你安装。本教程经过作者亲自测试，自认为是全网最靠谱的相关教程。
 
-​        按照本教程安装好之后，你可以迅速上手用树莓派做一个[子豪兄教你用树莓派做人脸识别](https://github.com/TommyZihao/Zihao-Blog/blob/master/%E5%AD%90%E8%B1%AA%E5%85%84%E6%95%99%E4%BD%A0%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%9E%E7%8E%B0%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB.md)。
+​        按照本教程安装好之后，你可以迅速上手用树莓派做一个[子豪兄教你用树莓派做人脸识别](https://github.com/TommyZihao/Zihao-Blog/blob/master/%E5%AD%90%E8%B1%AA%E5%85%84%E6%95%99%E4%BD%A0%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E5%81%9A%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB.md)。
 
 # ![face_recognition开源项目](https://cloud.githubusercontent.com/assets/896692/24430398/36f0e3f0-13cb-11e7-8258-4d0c9ce1e419.gif)
 
@@ -38,7 +38,7 @@
 
 防止下载速度过慢。
 
-# 不会换源的新手小白可以参考这篇文章[一劳永逸配置树莓派](https://github.com/TommyZihao/Zihao-Blog/blob/master/02%E4%B8%80%E5%8A%B3%E6%B0%B8%E9%80%B8%E9%85%8D%E7%BD%AE%E6%A0%91%E8%8E%93%E6%B4%BE.md)。
+不会换源的新手小白可以参考这篇文章[一劳永逸配置树莓派](https://github.com/TommyZihao/Zihao-Blog/blob/master/02%E4%B8%80%E5%8A%B3%E6%B0%B8%E9%80%B8%E9%85%8D%E7%BD%AE%E6%A0%91%E8%8E%93%E6%B4%BE.md)。
 
 ### 3.如果你有树莓派官方的摄像头Picamera，需按如下方法正确配置
 
@@ -196,11 +196,11 @@ wget https://github.com/Itseez/opencv/archive/3.4.0.zip
 wget https://github.com/Itseez/opencv_contrib/archive/3.4.0.zip
 ```
 
-> 如果下载速度很慢（比如每秒几个KB）：
+>如果下载速度很慢（比如每秒几个KB）：
 >
-> 方法1：可以在电脑浏览器中输入wget后面的链接下载压缩包，再用Fillzilla或者U盘等方法把文件传输到树莓派的**/home/pi/Downloads**目录下（一定不能错）。
+>方法1：可以在电脑浏览器中输入wget后面的链接下载压缩包，再用Fillzilla或者U盘等方法把文件传输到树莓派的**/home/pi/Downloads**目录下（一定不能错）。
 >
-> 方法2：:可以用电脑在[百度网盘链接](https://pan.baidu.com/s/182NYJzW1nCpnQ7ftSYYuSw)下载这两个压缩包之后再用Fillzilla或者U盘等方法把文件传输到树莓派的**/home/pi/Downloads**目录下（一定不能错）。
+>方法2：:可以用电脑在[百度网盘链接](https://pan.baidu.com/s/182NYJzW1nCpnQ7ftSYYuSw)下载这两个压缩包之后再用Fillzilla或者U盘等方法把文件传输到树莓派的**/home/pi/Downloads**目录下（一定不能错）。
 
 解压这两个压缩包
 
