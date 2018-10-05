@@ -20,7 +20,7 @@
 
 ​        按照本教程安装好之后，你可以迅速上手用树莓派做一个[子豪兄教你用树莓派做人脸识别](https://github.com/TommyZihao/Zihao-Blog/blob/master/%E5%AD%90%E8%B1%AA%E5%85%84%E6%95%99%E4%BD%A0%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E5%81%9A%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB.md)。
 
-# ![face_recognition开源项目](https://cloud.githubusercontent.com/assets/896692/24430398/36f0e3f0-13cb-11e7-8258-4d0c9ce1e419.gif)
+ ![face_recognition开源项目](https://cloud.githubusercontent.com/assets/896692/24430398/36f0e3f0-13cb-11e7-8258-4d0c9ce1e419.gif)
 
 # 安装前提
 
@@ -101,7 +101,7 @@ sudo apt-get install libopencv-dev
 sudo apt-get install python-opencv
 ```
 
-# 2、在Python2上测试OpenCV
+### 2、在Python2上测试OpenCV
 
 安装好之后，在命令行中输入`python`或者`python2`，回车
 
@@ -137,7 +137,7 @@ python2 testopencv.py
 
 
 
-## 在树莓派安装运行在Python3上的OpenCV
+# 在树莓派安装运行在Python3上的OpenCV
 
 ### 1、安装numpy
 
@@ -301,7 +301,7 @@ cv2.__version__
 
 
 
-## 参考文献与扩展阅读
+# 参考文献与扩展阅读
 
 > [【树莓派】树莓派+OpenCV3.4 + python3.5 成功以及注意细节](https://www.jianshu.com/p/3180a253fe3c)
 >
