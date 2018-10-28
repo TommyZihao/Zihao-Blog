@@ -26,7 +26,7 @@
 >
 > [清华大学廖方舟：产生和防御对抗样本的新方法 | 分享总结](https://www.leiphone.com/news/201801/eqwoT6Q4KFzXtjyy.html)    
 >
-> [朱军：深度学习中的对抗攻击与防守—2018中国计算机大会人工智能与信息安全分会场](https://github.com/TommyZihao/Zihao-Blog/blob/master/2018%E4%B8%AD%E5%9B%BD%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%A4%A7%E4%BC%9A%EF%BC%9A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E5%88%86%E8%AE%BA%E5%9D%9B.md)    
+> [清华大学朱军教授：深度学习中的对抗攻击与防守—2018中国计算机大会人工智能与信息安全分会场](https://github.com/TommyZihao/Zihao-Blog/blob/master/2018%E4%B8%AD%E5%9B%BD%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%A4%A7%E4%BC%9A%EF%BC%9A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E5%88%86%E8%AE%BA%E5%9D%9B.md)    
 >
 > [动量迭代攻击和高层引导去噪：对抗样本攻防的新方法](http://www.mooc.ai/open/course/383)     
 >
