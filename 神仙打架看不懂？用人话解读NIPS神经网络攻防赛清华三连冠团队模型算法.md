@@ -10,9 +10,15 @@
 
 
 
-在阅读下文之前，请先用三分钟阅读本文作者的另一篇科普文：[【科普文】如何优雅地欺骗神经网络，让人工智能指鹿为马](https://github.com/TommyZihao/Zihao-Blog/blob/master/%E3%80%90%E7%A7%91%E6%99%AE%E6%96%87%E3%80%91%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%AC%BA%E9%AA%97%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%8C%E8%AE%A9%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8C%87%E9%B9%BF%E4%B8%BA%E9%A9%AC.md)。这篇文章用人话讲解了对抗样本、逃逸攻击、白盒黑盒攻击的基本概念，并展示了学术最前沿的几个攻击神经网络成功案例。
+在阅读下文之前，请先用三分钟阅读本文作者的另一篇科普文：[【科普文】如何优雅地欺骗神经网络，让人工智能指鹿为马](https://github.com/TommyZihao/Zihao-Blog/blob/master/%E3%80%90%E7%A7%91%E6%99%AE%E6%96%87%E3%80%91%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%AC%BA%E9%AA%97%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%8C%E8%AE%A9%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8C%87%E9%B9%BF%E4%B8%BA%E9%A9%AC.md)。这篇文章用人话讲解了对抗样本、逃逸攻击、白盒黑盒攻击的基本概念，并展示了学术最前沿的几个攻击神经网络成功案例（全文无数学推导，请放心食用）。
 
 
+
+[TOC]
+
+
+
+# 1、本文概览
 
 2017年，“生成对抗神经网络GAN之父”Ian Goodfellow 牵头组织了NIPS的 Adversarial Attacks and Defences（神经网络对抗攻防竞赛），清华大学博士生董胤蓬、廖方舟、庞天宇及指导老师朱军、胡晓林、李建民、苏航组成的团队在竞赛中的全部三个项目中得到冠军。以下是清华大学参赛师生赛后撰写的总结和相关报告。
 
@@ -34,15 +40,25 @@
 
 
 
-本文大部分图片来自于视频[清华大学廖方舟：产生和防御对抗样本的新方法 | AI研习社](https://www.leiphone.com/news/201801/eqwoT6Q4KFzXtjyy.html)  
+本文大部分图片来自于视频[清华大学廖方舟：产生和防御对抗样本的新方法 | AI研习社](https://www.leiphone.com/news/201801/eqwoT6Q4KFzXtjyy.html)。    
 
 
 
-​    下图展示了FGSM算法的基本原理，X*是要产生的对抗样本，x是真实样本，y是正确的预测值。
+# 2、FGSM算法：生成对抗样本
+
+​    早在2015年，“生成对抗神经网络GAN之父”Ian Goodfellow在ICLR会议上展示了攻击神经网络欺骗成功的案例，在原版大熊猫图片中加入肉眼难以发现的干扰，生成对抗样本。就可以让Google训练的神经网络误认为它99.3%是长臂猿。
+
+![大熊猫变长臂猿](https://upload-images.jianshu.io/upload_images/13714448-a376255416a12da2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+​    下图展示了FGSM算法的基本原理，X*是要产生的对抗样本，x是真实样本，y是图片正确的预测值。
+
+## 第一步：构造损失函数
 
 ​    第一行表示构造损失函数L(x\*,y)，同时保证新生成的对抗样本x\*必须与原图x保持在一定距离的高维空间之内（约束条件）。 在数学上，argmax(f(x))是使得 f(x)取得最大值所对应的变量x。第一行就是说在满足约束条件前提下，找到让损失函数L(x\*,y)最大（也就是让神经网络推测结果越失败）的对抗样本x\*。
 
-> **用人话说就是：在肉眼看上去依旧是同一只大熊猫图片的基础上，把神经网络的推测结果能骗多远骗多远。**
+> **用人话说就是：在肉眼看上去依旧差不多是同一只大熊猫图片的基础上，把神经网络的推测结果能误导多远就误导多远。**
 
 ![FGSM优化算法：第一行表示构造损失函数，使得x*必须与x保持在一定距离的高维空间之内](https://upload-images.jianshu.io/upload_images/13714448-aadaab7443cd5a1f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -50,21 +66,31 @@
 
 ​    第三行：之所以不采用L2 norm，是因为会产生很大的畸变。
 
-​    只后，采用多步FGSM攻击，使损失函数最大化，每一步迭代的步长会相应减小。
+## 第二步：多步迭代，找到损失函数最大值
+
+​    之后，采用多步FGSM攻击，找到损失函数最大值，每一步迭代的步长会相应减小，避免步子大了扯到蛋。
+
+![步子大了容易扯着蛋](https://upload-images.jianshu.io/upload_images/13714448-90c6edb2e89e516a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![多步FGSM攻击](https://upload-images.jianshu.io/upload_images/13714448-7ec1021378dfbfa9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
-​    通过上述步骤，你已经可以让神经网络不认识熊猫了，那如果我想让神经网络把熊猫认成长臂猿呢？就要用到Targeted FGSM攻击，只需用预测输出结果长臂猿y\*取代传统FGSM算法中的正确预测结果y，同时最小化损失函数即可。
+## 第三步：带目标FGSM算法—指鹿为马
+
+​    通过上述步骤，你已经可以让神经网络不认识熊猫了，那如果我想指定让神经网络把熊猫认成长臂猿呢？就要用到Targeted FGSM攻击，只需用预测输出结果长臂猿y\*取代传统FGSM算法中的正确预测结果y，同时最小化损失函数即可。
 
 ![目标FGSM攻击](https://upload-images.jianshu.io/upload_images/13714448-4ad3199938b96bd5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
+## 第四步：集合攻击—集百山之石，攻此山之玉
+
 如何提高黑盒攻击的成功率和模型可迁移性？
 
 - 攻击多个模型的集合，而不是逐个击破。比方说，把ResNet、VGG、Inception三个模型视作单个的大模型一起攻击，再用训练好的模型攻击AlexNet，成功率就会大大提高。可以在模型底层、预测值、损失函数三个层面进行多个模型的集合攻击。
+
+## 第五步：对抗训练—把真实战场作为训练场
 
 一个防守策略：在训练模型的时候就加上对抗样本（对抗训练）。
 
@@ -80,7 +106,9 @@
 
 增强版的对抗训练方法：集合攻击，相当于用五岳他山之石攻此山之玉。比如用ResNet、VGG、LeNet生成的对抗样本去训练Inception。这样训练出的网络非常稳定。但要耗费好几十倍的时间。
 
-## NIPS2017神经网络攻防竞赛
+# 3、NIPS2017神经网络攻防竞赛
+
+## 比赛分组
 
 ![NIPS2017竞赛](https://upload-images.jianshu.io/upload_images/13714448-38b1aba9b6743f95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -96,6 +124,8 @@
 
 - 攻击步长ε不能超过16：也就是说生成的干扰图片需要非常接近原图，不能看出明显差别。
 - 识别图片不能太耗时间：识别100张图片的时间不能超过500s
+
+## 清华参赛队模型
 
 下图展示了使用FGSM模型进行攻击的测试，横行为攻击模型名称，竖列为防守模型名称，表格中的数字表示对于每1000张攻击图片，防守模型成功防守的图片数目，数字越大，表示竖列模型防守越有效，数字越小，表示横行模型进攻越有效。
 
@@ -113,15 +143,17 @@
 
 3、由Ens4-Adv-Incv3竖列看出，经过多个模型集合训练之后的防守模型非常强悍。正所谓“用五岳他山之石攻此山之玉”、“曾经沧海难为水”，使用多个深度模型训练出的防守模型必然是集众家之长。
 
-### 提高迭代次数
+## 一味提高迭代次数反而适得其反？
 
 由下图可以看出，随着迭代次数的增加，绿色的防守模型很快被攻破，防守成功率大大下降。跟绿色模型有远房亲戚关系的黄色模型也受到了波及。但与绿色亲戚毫无关系的灰色防守模型却屹立不倒，而且随着迭代次数增加，防守成功率反而还提升了。这反映了黑盒攻击时随迭代次数增加的过拟合现象，就好比片面僵化照搬苏联经验到中国，革命事业就会遭遇挫折。
 
-
-
-在比赛中，如果防守方选手偷懒，直接提交灰色模型本身，那么攻击方千辛万苦增加迭代次数，消耗计算时间的工作就反而适得其反，为他人作嫁衣裳。
+在比赛中，如果防守方选手偷懒，直接提交开源的灰色模型本身，那么攻击方千辛万苦增加迭代次数，消耗计算时间的工作就反而适得其反，为他人作嫁衣裳。
 
 ![提高迭代次数](https://upload-images.jianshu.io/upload_images/13714448-c7fb2082d1affc48.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+## 带动量的FGSM算法—放心大胆迭代计算
 
 如何解决这个问题呢？引入Momentum动量的FGSM算法！
 
@@ -137,15 +169,17 @@
 
 
 
-### 对于指定要求指鹿为马的攻击
+## 对于指定要求指鹿为马的攻击
 
 模型迁移性一直很差
 
-### 降噪优化策略
+## 对抗样本对原图做了什么？噪音！
 
 ​    对抗样本会在原图上增加肉眼很难发现的干扰，但依旧能看得出来和原图的区别：
 ![干扰样本对图像的改变](https://upload-images.jianshu.io/upload_images/13714448-c0a686a55b828825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ​    一个很自然的想法就是，通过像素级别的去噪，把干扰样本图片还原回原来的图片，经过median filter、BM3D等传统去噪方法试验，发现用这些方法破解对抗样本的成功率很低。于是转向使用神经网络。
+
+## 两种去除噪音的神经网络模型
 
 使用两种不同架构的神经网络去噪：
 
@@ -158,7 +192,9 @@
 
 
 
-清华参赛团队模型训练过程
+
+
+## 清华参赛队去噪防守模型训练过程
 
 训练集Image.Net的三万张图片
 
@@ -168,17 +204,15 @@
 
 ![清华竞赛团队模型训练](https://upload-images.jianshu.io/upload_images/13714448-e6ec262695d198cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+### 两种去噪模型全都不靠谱
+
 针对白盒攻击和黑盒攻击分别制作了测试集，测试结果如下图：
 
 ![两种去噪神经网络的测试效果](https://upload-images.jianshu.io/upload_images/13714448-3fa38eba5394b921.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 NA表示不进行去噪的空白对照组；DAE表示Denoising Autoencoder神经网络去噪；DUNET表示Denosing Additive U-Net神经网络去噪。Clean表示对未经过对抗样本干扰的干净图片进行攻击。前排数字表示去噪之后剩余的噪音。后排百分数表示去噪防守成功率。
 
-
-
-
-
-试验发现
+试验发现：
 
 1、相比NA空白对照组，Denoising Autoencoder神经网络反而增加了噪音。
 
@@ -189,6 +223,8 @@ NA表示不进行去噪的空白对照组；DAE表示Denoising Autoencoder神经
 ![神经网络各层之间与原图的差距](https://upload-images.jianshu.io/upload_images/13714448-bc9d8c861b8cddd4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 很自然的想法就是将剩余噪音作为损失函数，然后找到它的最小值。
+
+### 改进的降噪方案—PDG和HGD
 
 下图展示了两种降噪方案：旨在像素级降噪的PGD、旨在识别结果的HGD
 
@@ -210,7 +246,7 @@ HGD的三个变种：
 
 ![误差放大的修补，黑线表示采用新降噪方法](https://upload-images.jianshu.io/upload_images/13714448-567395ffd025ea36.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
+### HGD模型的可迁移性：多种模型都适用
 
 新的HGD降噪方法具有良好的迁移性，仅使用了750张训练图片，就达到了很好的防守效果。
 
@@ -226,16 +262,6 @@ HGD的三个变种：
 
 ![NIPS竞赛清华团队降噪模型](https://upload-images.jianshu.io/upload_images/13714448-317ee8c7d1c50f17.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
-
-
-
-为什么旨在像素级别的降噪方法PGD在真实防守时效果远远不如LGD呢？这张图说明了这个问题。横轴表示图像上的噪声幅值，纵轴表示降噪方法去掉的噪音幅值，在PGD去噪方法中，纵轴只有横轴的一半，也就是PGD方法只去掉一半噪声。而在LGD去噪方法中，噪声基本都被去掉了。
-
-![PGD与LGD的去噪分析](https://upload-images.jianshu.io/upload_images/13714448-27dc870941803e5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-
 **HGD网络总结**
 
 优点：
@@ -249,13 +275,17 @@ HGD的三个变种：
 > - 还依赖于微小变化的可测量
 > - 只有在攻击方不知道防守方采用了HGD去噪方案时才有效
 
+### 像素层面上的去噪并不能真正去掉噪音
 
+为什么旨在像素级别的降噪方法PGD在真实防守时效果远远不如LGD呢？这张图说明了这个问题。横轴表示图像上的噪声幅值，纵轴表示降噪方法去掉的噪音幅值，在PGD去噪方法中，纵轴只有横轴的一半，也就是PGD方法只去掉一半噪声。而在LGD去噪方法中，噪声基本都被去掉了。
 
+![PGD与LGD的去噪分析](https://upload-images.jianshu.io/upload_images/13714448-27dc870941803e5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+# 4、参考文献与扩展阅读
 
-# 参考文献与扩展阅读
-
-> [【科普文】如何优雅地欺骗神经网络，让人工智能指鹿为马](https://github.com/TommyZihao/Zihao-Blog/blob/master/%E3%80%90%E7%A7%91%E6%99%AE%E6%96%87%E3%80%91%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%AC%BA%E9%AA%97%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%8C%E8%AE%A9%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8C%87%E9%B9%BF%E4%B8%BA%E9%A9%AC.md)
+> [**【科普文】如何优雅地欺骗神经网络，让人工智能指鹿为马**](https://github.com/TommyZihao/Zihao-Blog/blob/master/%E3%80%90%E7%A7%91%E6%99%AE%E6%96%87%E3%80%91%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%AC%BA%E9%AA%97%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%8C%E8%AE%A9%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8C%87%E9%B9%BF%E4%B8%BA%E9%A9%AC.md)
+>
+> [**2018中国计算机大会：人工智能与信息安全分论坛**](https://github.com/TommyZihao/Zihao-Blog/blob/master/2018%E4%B8%AD%E5%9B%BD%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%A4%A7%E4%BC%9A%EF%BC%9A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E5%88%86%E8%AE%BA%E5%9D%9B.md)
 >
 > [清华大学团队包揽三项冠军，NIPS 2017对抗样本攻防竞赛总结](https://www.leiphone.com/news/201804/WcmoNd6pO4bTQ1yV.html)
 >
@@ -280,3 +310,5 @@ HGD的三个变种：
 > [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572)
 >
 > [Adversarial Examples that Fool both Computer Vision and Time-Limited Humans](https://arxiv.org/abs/1802.08195)
+>
+> 欢迎关注作者的微信公众号：子豪兄的科研小屋。说人话的零基础深度学习、数据科学视频教程、树莓派趣味开发视频教程等你来看！
