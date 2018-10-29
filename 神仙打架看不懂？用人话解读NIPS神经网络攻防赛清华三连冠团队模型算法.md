@@ -6,11 +6,11 @@
 >西南人工智能爱好者联盟   
 >重庆大学人工智能协会       
 >
->发布于2018-10-28
+>发布于2018-10-29
 
 
 
-在阅读下文之前，请先用三分钟阅读本文作者的另一篇科普文：[【科普文】如何优雅地欺骗神经网络，让人工智能指鹿为马](https://github.com/TommyZihao/Zihao-Blog/blob/master/%E3%80%90%E7%A7%91%E6%99%AE%E6%96%87%E3%80%91%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%AC%BA%E9%AA%97%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%8C%E8%AE%A9%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8C%87%E9%B9%BF%E4%B8%BA%E9%A9%AC.md)。这篇文章用人话讲解了神经网络对抗样本、逃逸攻击、白盒黑盒攻击的基本概念，并展示了学术最前沿的几个攻击神经网络成功案例（全文无数学推导，请放心食用）。
+在阅读下文之前，请先用三分钟阅读本文作者的另一篇科普文：[**【科普】人工智能秒变人工智障：误导神经网络指鹿为马**](https://github.com/TommyZihao/Zihao-Blog/blob/master/%E3%80%90%E7%A7%91%E6%99%AE%E3%80%91%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%A7%92%E5%8F%98%E4%BA%BA%E5%B7%A5%E6%99%BA%E9%9A%9C%EF%BC%9A%E8%AF%AF%E5%AF%BC%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%8C%87%E9%B9%BF%E4%B8%BA%E9%A9%AC.md)。这篇文章用人话讲解了神经网络对抗样本、逃逸攻击、白盒黑盒攻击的基本概念，并展示了学术最前沿的几个攻击神经网络成功案例（全文无数学推导，请放心食用）。
 
 
 
@@ -42,7 +42,7 @@
 
 本文大部分图片来自于视频[清华大学廖方舟：产生和防御对抗样本的新方法 | AI研习社](https://www.leiphone.com/news/201801/eqwoT6Q4KFzXtjyy.html)。    
 
-
+> 参赛选手廖方舟同学Kaggle最高排名世界第10，是Data Science Bowl 2017冠军。
 
 # 2、FGSM算法：生成对抗样本
 
@@ -283,7 +283,7 @@ HGD的三个变种：
 
 # 4、参考文献与扩展阅读
 
-> [**【科普文】如何优雅地欺骗神经网络，让人工智能指鹿为马**](https://github.com/TommyZihao/Zihao-Blog/blob/master/%E3%80%90%E7%A7%91%E6%99%AE%E6%96%87%E3%80%91%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%AC%BA%E9%AA%97%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%8C%E8%AE%A9%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%8C%87%E9%B9%BF%E4%B8%BA%E9%A9%AC.md)
+> [**【科普】人工智能秒变人工智障：误导神经网络指鹿为马**](https://github.com/TommyZihao/Zihao-Blog/blob/master/%E3%80%90%E7%A7%91%E6%99%AE%E3%80%91%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%A7%92%E5%8F%98%E4%BA%BA%E5%B7%A5%E6%99%BA%E9%9A%9C%EF%BC%9A%E8%AF%AF%E5%AF%BC%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%8C%87%E9%B9%BF%E4%B8%BA%E9%A9%AC.md)
 >
 > [**2018中国计算机大会：人工智能与信息安全分论坛**](https://github.com/TommyZihao/Zihao-Blog/blob/master/2018%E4%B8%AD%E5%9B%BD%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%A4%A7%E4%BC%9A%EF%BC%9A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E5%88%86%E8%AE%BA%E5%9D%9B.md)
 >
@@ -311,4 +311,15 @@ HGD的三个变种：
 >
 > [Adversarial Examples that Fool both Computer Vision and Time-Limited Humans](https://arxiv.org/abs/1802.08195)
 >
-> 欢迎关注作者的微信公众号：子豪兄的科研小屋。说人话的零基础深度学习、数据科学视频教程、树莓派趣味开发视频教程等你来看！
+> 作者介绍：
+>
+> 张子豪，同济大学在读研究生。致力于用人类能听懂的语言向大众科普人工智能前沿科技。目前正在制作《说人话的深度学习视频教程》、《零基础入门树莓派趣味编程》等视频教程。西南地区人工智能爱好者高校联盟联合创始人，重庆大学人工智能协会联合创始人。充满好奇的终身学习者、崇尚自由的开源社区贡献者、乐于向零基础分享经验的引路人、口才还不错的程序员。
+>
+> 说人话的零基础深度学习、数据科学视频教程、树莓派趣味开发视频教程等你来看！
+>
+> 微信公众号：子豪兄的科研小屋   Github代码仓库:TommyZihao
+>
+> [同济大学开源软件协会](https://mirrors.tongji.edu.cn/)
+>
+> 西南人工智能爱好者联盟   
+> 重庆大学人工智能协会     
