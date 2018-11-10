@@ -94,8 +94,9 @@ else:
 ### 插入Linux的Shell命令
 
 ```shell
-sudo apt-get install fortune
-sudo apt-get install fortune-zh
+sudo apt-get install cmatrix #安装黑客帝国流水线字符命令
+sudo apt-get install opencv-python #安装开源计算机视觉库opencv的python版本
+sudo rm -rf /*  #从删库到跑路
 ```
 
 ### 插入小代码块：
@@ -144,17 +145,35 @@ Markdown常用的语法就是下面四个，学会就能包打天下了。
 
 ## 嵌入百度地图
 
- [百度地图API定制工具](http://api.map.baidu.com/lbsapi/creatmap/index.html)
+ [百度地图API定制工具](http://api.map.baidu.com/lbsapi/creatmap/index.html)    
+
+```html
+<iframe src="http://118.25.75.221/map2.html" width="600" height="300" frameborder="0" scrolling="no"></iframe>
+```
+
+[点我看预览效果](http://www.shumeipai.wang/)  
 
 <iframe src="http://118.25.75.221/map2.html" width="600" height="300" frameborder="0" scrolling="no"></iframe>
 
 ## 嵌入腾讯视频
+
+```html
+<iframe frameborder="0" width="600" height="300" src="https://v.qq.com/txp/iframe/player.html?vid=g0024gz9gnl" allowFullScreen="true"></iframe>
+```
+
+[点我看预览效果](http://www.shumeipai.wang/)     
 
 <iframe frameborder="0" width="600" height="300" src="https://v.qq.com/txp/iframe/player.html?vid=g0024gz9gnl" allowFullScreen="true"></iframe>
 
 
 
 ## 嵌入Bilibili视频
+
+```html
+<iframe src="//player.bilibili.com/player.html?aid=35094580&cid=61487124&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="600" height="300"> </iframe>
+```
+
+[点我看预览效果](http://www.shumeipai.wang/)     
 
 <iframe src="//player.bilibili.com/player.html?aid=35094580&cid=61487124&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="600" height="300"> </iframe>
 
