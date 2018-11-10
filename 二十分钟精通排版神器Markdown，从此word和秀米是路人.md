@@ -5,7 +5,7 @@
 >
 >微信公众号：**人工智能小技巧**   
 >
->发布于2018-11-9   
+>发布于2018-11-10     
 
 ![文字排版](https://upload-images.jianshu.io/upload_images/13714448-40ef56b0907b84c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
 
@@ -153,7 +153,6 @@ Markdown常用的语法就是下面四个，学会就能包打天下了。
 
 [点我看预览效果](http://www.shumeipai.wang/)  
 
-<iframe src="http://118.25.75.221/map2.html" width="600" height="300" frameborder="0" scrolling="no"></iframe>
 
 ## 嵌入腾讯视频
 
@@ -163,7 +162,6 @@ Markdown常用的语法就是下面四个，学会就能包打天下了。
 
 [点我看预览效果](http://www.shumeipai.wang/)     
 
-<iframe frameborder="0" width="600" height="300" src="https://v.qq.com/txp/iframe/player.html?vid=g0024gz9gnl" allowFullScreen="true"></iframe>
 
 
 
@@ -175,7 +173,6 @@ Markdown常用的语法就是下面四个，学会就能包打天下了。
 
 [点我看预览效果](http://www.shumeipai.wang/)     
 
-<iframe src="//player.bilibili.com/player.html?aid=35094580&cid=61487124&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="600" height="300"> </iframe>
 
 # 参考文献与扩展阅读
 
