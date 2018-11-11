@@ -1,8 +1,6 @@
 
 
-<p align="center">
-    <img src="https://upload-images.jianshu.io/upload_images/13714448-78639c9c5f2b050b.gif?imageMogr2/auto-orient/strip", width="480">
-</p>
+![](https://github.com/CMU-Perceptual-Computing-Lab/openpose/raw/master/doc/media/pose_face_hands.gif)
 
 <div align="center">
     <img src="https://upload-images.jianshu.io/upload_images/13714448-17bc0005dd22fc5a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240", width="300">
