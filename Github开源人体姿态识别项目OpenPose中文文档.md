@@ -112,21 +112,23 @@
 ### 躯干、脚部识别
 
 <p align="center">
-    <img src="https://upload-images.jianshu.io/upload_images/13714448-a16fb8b783e14c96.gif?imageMogr2/auto-orient/strip", width="360">
+    <img src="https://github.com/CMU-Perceptual-Computing-Lab/openpose/raw/master/doc/media/dance_foot.gif", width="360">
 </p>
+
 
 
 ### 躯干、脸部、手部识别
 
 <p align="center">
-    <img src="https://upload-images.jianshu.io/upload_images/13714448-0dd5963d55155f5f.gif?imageMogr2/auto-orient/strip", width="360">
+    <img src="https://github.com/CMU-Perceptual-Computing-Lab/openpose/raw/master/doc/media/pose_face.gif", width="360">
 </p>
 
 ### 人体姿态三维重建
 
 <p align="center">
-    <img src="https://upload-images.jianshu.io/upload_images/13714448-41cd879788db4c20.gif?imageMogr2/auto-orient/strip", width="360">
+    <img src="https://github.com/CMU-Perceptual-Computing-Lab/openpose/raw/master/doc/media/openpose3d.gif", width="360">
 </p>
+
 
 ### 身体、手指关键点识别
 
@@ -137,8 +139,9 @@
 ### 身体识别
 
 <p align="center">
-    <img src="https://upload-images.jianshu.io/upload_images/13714448-0d0c7007411ef1fd.gif?imageMogr2/auto-orient/strip", width="360">
+    <img src="https://github.com/CMU-Perceptual-Computing-Lab/openpose/raw/master/doc/media/dance.gif", width="360">
 </p>
+
 
 
 
