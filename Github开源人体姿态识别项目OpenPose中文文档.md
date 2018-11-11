@@ -7,7 +7,7 @@
     <img src="https://upload-images.jianshu.io/upload_images/13714448-17bc0005dd22fc5a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240", width="300">
 </div>
 
-> [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) 可以实现人体动作、面部表情、手指运动等姿态估计，是卡耐基梅隆大学（CMU）基于卷积神经网络和监督学习并以caffe为框架开发的开源库。适用于单人和多人，具有极好的鲁棒性。是世界上首个基于深度学习的实时多人二维姿态估计应用，基于它的实例如雨后春笋般涌现。人体姿态识别领域具有广阔的应用前景，人们更加熟悉的应用就是抖音尬舞机。
+> [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) 可以实现人体动作、面部表情、手指运动等姿态估计，是卡耐基梅隆大学（CMU）基于卷积神经网络和监督学习并以caffe为框架开发的开源库。适用于单人和多人，具有极好的鲁棒性。是世界上首个基于深度学习的实时多人二维姿态估计应用，基于它的实例如雨后春笋般涌现。人体姿态估计技术在体育健身、动作采集、3D试衣、舆情监测等领域具有广阔的应用前景，人们更加熟悉的应用就是抖音尬舞机。
 >
 > OpenPose项目Github链接：https://github.com/CMU-Perceptual-Computing-Lab/openpose
 >
@@ -141,9 +141,6 @@
 <p align="center">
     <img src="https://github.com/CMU-Perceptual-Computing-Lab/openpose/raw/master/doc/media/dance.gif", width="360">
 </p>
-
-
-
 
 
 
