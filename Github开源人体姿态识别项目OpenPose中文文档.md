@@ -46,7 +46,7 @@
 
 [《芳华》文工团跳舞视频片段：人体姿态识别](https://www.zhihu.com/video/987128876031561728)    
 
-![《芳华》文工团跳舞视频片段：人体姿态识别](https://upload-images.jianshu.io/upload_images/13714448-c3def2b6fd37f03d.gif?imageMogr2/auto-orient/strip)
+![《芳华》文工团跳舞视频片段：人体姿态识别](https://upload-images.jianshu.io/upload_images/13714448-f2be3f19b66a6804.gif?imageMogr2/auto-orient/strip)
 
 [《叶问》武打视频片段：人体姿态识别](https://www.zhihu.com/video/987108227749883904)    
 
