@@ -2,7 +2,15 @@
 
 上海市凉城第二小学陶艺STEM系列课程：体验古老陶艺，领略3D科技，弘扬传统文化
 
-> 作者：张子豪（同济大学在读研究生）
+> **课程研发策划**：张子豪（同济大学在读研究生，上海STEM云中心）
+>
+> **作者介绍**：
+>
+> 张子豪，同济大学在读研究生。微信公众号 **人工智能小技巧** 运营者。致力于将人工智能、3D打印等前沿科技与STEM教育结合。目前正在制作《说人话的人工智能视频教程》、《零基础入门树莓派趣味编程》、《Python趣味编程二十例》等视频教程。已助力成都石室中学、成都温江中学、江苏南菁中学、上海凉城二小、重庆沙坪坝小学等中小学完成多个STEM教育课程研发策划。
+>
+> **微信公众号：** 人工智能小技巧
+>
+> **知乎专栏：** 人工智能小技巧
 
 [TOC]
 
@@ -12,17 +20,15 @@
 
 从女娲抟土造人到上帝捏出亚当，从秦砖汉瓦到水泥混凝土，人类历史就是一部陶泥材料的演化史。二十一世纪，以3D打印、虚拟现实为代表的智能制造技术让我们的生活更加美好，也为古老的陶艺制作赋予了更多炫酷的“科技范儿”。
 
+![学生在运用泥条盘筑法制作容器](https://upload-images.jianshu.io/upload_images/13714448-875ae222e6771930.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![学生作品](https://upload-images.jianshu.io/upload_images/13714448-b8d16e6fedcf3b1f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 制作陶艺需要运用各种材料和工具，全神贯注、手脑并用，并与团队小伙伴进行紧密协作。当你经过多道工艺，终于将心中的灵感变为现实的时候，心中会涌出无限创造的成就感。那么，当传统陶艺走进校园，与智能的3D打印技术结合，会碰撞出什么火花呢？上海市凉城第二小学给出了完美答案。
 
 凉城第二小学依托“中国古代陶瓷”项目和上海市创新实验室“瓷土坊”和“软陶坊”，开发了《儿童陶艺》和《淘泥巴》校本课程，编写了《软陶十二生肖》和《儿童陶艺教学》等教材。面向全校开设了陶艺选修拓展性课程。内容包括陶艺简介、捏塑、拉坯、泥条盘筑、泥板刻画等，按年级逐渐加深难度，循序渐进。并运用先进的陶泥3D打印机，通过三维建模实现陶艺模型的快速智能制造，帮助学生成为将艺术灵感快速变为陶艺产品的“神笔马良”。
 
 ![上海市创新实验室：瓷土坊](https://upload-images.jianshu.io/upload_images/13714448-2dad94f727c505f8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![学生在运用泥条盘筑法制作容器](https://upload-images.jianshu.io/upload_images/13714448-875ae222e6771930.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-![学生作品](https://upload-images.jianshu.io/upload_images/13714448-b8d16e6fedcf3b1f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
 
 ![陶泥3D打印机](https://upload-images.jianshu.io/upload_images/13714448-be899363ea8c020f.gif?imageMogr2/auto-orient/strip)
 
@@ -179,6 +185,8 @@
 
 可以使用Windows10自带的建议三维建模软件3DBuilder进行建模，也可以使用更专业的3dsmax等工具进行三维建模，也可以使用教师事先做好的三维模型。
 
+![三维建模软件中创建基本几何体](https://upload-images.jianshu.io/upload_images/13714448-4999e904bcf38ba8.gif?imageMogr2/auto-orient/strip)
+
 ![陶泥花瓶三维建模](https://upload-images.jianshu.io/upload_images/13714448-91869307a9b3b618.gif?imageMogr2/auto-orient/strip)
 
 在三维建模软件中增加颜色、材质，渲染。
@@ -223,7 +231,7 @@
 
 ![3D打印陶泥工艺品](https://upload-images.jianshu.io/upload_images/13714448-89d76be2129441ca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-# 3、STEM+时代下的陶艺课程
+# 4、STEM+时代下的陶艺课程
 
 ## 国家政策与行业背景：文化自信与遗产保护、3D技术与智能制造
 
@@ -309,11 +317,13 @@
 
 在三维空间中建立实体的数字化模型，需要丰富的空间想象能力和计算机使用能力。通过制作三维模型花瓶，让孩子了解三维建模软件的最基础使用方法。
 
-在三维建模软件中创建立方体、圆柱、圆锥、球体、棱柱、棱锥等基本集合体，加深对空间立体的了解。
+在三维建模软件中创建立方体、圆柱、圆锥、球体、棱柱、棱锥、四面体、圆环、楔形体等基本集合体，加深对空间立体的了解。
 
 为后续学习小学五年级立体三视图、初中平面几何、欧式几何、高中必修二立体几何、高中选修五坐标变换，及更高深的拓扑学、计算机图形学奠定基础。
 
 ![三维建模软件](https://upload-images.jianshu.io/upload_images/13714448-a58d0b1b8022057a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![三维建模软件中创建基本几何体](https://upload-images.jianshu.io/upload_images/13714448-4999e904bcf38ba8.gif?imageMogr2/auto-orient/strip)
 
 ![立体构成](https://upload-images.jianshu.io/upload_images/13714448-f7a6e8f29a2c162e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -325,7 +335,7 @@
 
 百度创始人李彦宏就是因为孩童时期受三维建模软件启发，励志投身于计算机图形学，最终在美国获得博士学位，回国创办了百度公司。
 
-![三维建模制作别墅模型](https://upload-images.jianshu.io/upload_images/13714448-d73ea4a53b120339.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![建筑形体三维建模](https://upload-images.jianshu.io/upload_images/13714448-d8877f1e6e8a30f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## Art：艺术与历史——在瓶底书刻隶仿前朝的飘逸
 
@@ -354,6 +364,8 @@
 学会常用三维建模软件基础使用方法：缩放、旋转、平移视角，拉伸、剪裁物体。之后学生可以自由创作，甚至制作三维动画。
 
 ![三维建模软件](https://upload-images.jianshu.io/upload_images/13714448-a58d0b1b8022057a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![三维建模软件中创建基本几何体](https://upload-images.jianshu.io/upload_images/13714448-4999e904bcf38ba8.gif?imageMogr2/auto-orient/strip)
 
 ![陶泥花瓶三维建模](https://upload-images.jianshu.io/upload_images/13714448-4bb8526b0aab010b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -385,7 +397,7 @@
 
 
 
-# 4、主要成果
+# 5、主要成果
 
 ## 1、校本课程研发与教材编写
 
@@ -421,7 +433,7 @@
 
 
 
-# 5、案例1：陶艺骆驼模型制作
+# 6、案例1：陶艺骆驼模型制作
 
 骆驼陶艺模型制作属于陶艺选修拓展性课程的第三单元：捏塑成型，这个单元的课程涵盖如下三个阶段：
 
@@ -455,7 +467,7 @@
 
 
 
-# 6、案例2：3D打印陶泥花瓶模型制作
+# 7、案例2：3D打印陶泥花瓶模型制作
 
 ## 预备工作：组装陶泥3D打印机
 
@@ -521,7 +533,7 @@
 
 ### 陶艺工艺品包装
 
-![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542138899314&di=ee6e0cc9e7b469fa2141e6b87231033e&imgtype=0&src=http%3A%2F%2Fupload-images.jianshu.io%2Fupload_images%2F13714448-89d76be2129441ca.png)
+![陶泥工艺品包装](https://upload-images.jianshu.io/upload_images/13714448-c79b6ffb331dbc18.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
@@ -529,7 +541,7 @@
 
 
 
-# 7、附件
+# 8、附件
 
 [附件百度网盘链接](https://pan.baidu.com/s/1anC-0BmPS_jidaUogEVjjw)
 
@@ -581,4 +593,12 @@
 
 我们常听到有的学生怕弄脏衣服遭家长批评而不敢放手去玩,有的学生因家中玩具太多而不屑去玩,而更多的学生面对考试的压力和父母的期望,无奈地放弃去玩；也有一部分学生不愿意动手，生怕做错。对于这样的学生，我们要鼓励他们，手把手引导他们感受陶艺的古老文化，让他们全身心投入到创作的世界中。
 
-> 本文作者：张子豪（同济大学研究生）
+> 课程研发策划：张子豪（同济大学在读研究生，上海STEM云中心）
+>
+> 作者介绍：
+>
+> 张子豪，同济大学在读研究生。微信公众号 **人工智能小技巧** 运营者。致力于将人工智能、3D打印等前沿科技与STEM教育结合。目前正在制作《说人话的人工智能视频教程》、《零基础入门树莓派趣味编程》、《Python趣味编程二十例》等视频教程。已助力成都石室中学、成都温江中学、江苏南菁中学、上海凉城二小、重庆沙坪坝小学等中小学完成多个STEM教育课程研发策划。
+>
+> 微信公众号：**人工智能小技巧**   
+>
+> 知乎专栏：**人工智能小技巧**   
