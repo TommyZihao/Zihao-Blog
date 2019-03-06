@@ -1,18 +1,89 @@
+# 体验古老陶艺，领略3D科技，弘扬传统文化——上海市凉城第二小学陶艺STEAM系列课程
 
+本文介绍了上海虹口区凉城第二小学特色陶艺STEAM课程，包括传统民俗文化与现代科技结合的**课程背景**、多学科背景交叉融合的**主创团队**、指南针计划与创新实验室的**平台资源**、循序渐进的梯度**课程内容**、陶艺手工课程案例与陶泥3D打印**案例展示**，重点介绍了传统民俗陶艺与**STEAM教育的数理科学、立体几何、工程技术、机械智能、化学材料、物理原理、人文艺术、动手实践各大板块**相结合的探索。
 
-上海市凉城第二小学陶艺STEM系列课程：体验古老陶艺，领略3D科技，弘扬传统文化
+![上海市创新实验室：瓷土坊](https://upload-images.jianshu.io/upload_images/13714448-2dad94f727c505f8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-> **课程研发策划**：张子豪（同济大学在读研究生，上海STEM云中心）
->
-> **作者介绍**：
->
-> 张子豪，同济大学在读研究生。微信公众号 **人工智能小技巧** 运营者。致力于将人工智能、3D打印等前沿科技与STEM教育结合。目前正在制作《说人话的人工智能视频教程》、《零基础入门树莓派趣味编程》、《Python趣味编程二十例》等视频教程。已助力成都石室中学、成都温江中学、江苏南菁中学、上海凉城二小、重庆沙坪坝小学等中小学完成多个STEM教育课程研发策划。
->
-> **微信公众号：** 人工智能小技巧
->
-> **知乎专栏：** 人工智能小技巧
+![陶泥花瓶三维建模](https://upload-images.jianshu.io/upload_images/13714448-4bb8526b0aab010b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-[TOC]
+![陶艺花瓶立体构成与三维建模工程制图](https://upload-images.jianshu.io/upload_images/13714448-ef3aae3dd2bc6ca7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶泥花瓶三维建模工程图纸](https://upload-images.jianshu.io/upload_images/13714448-7277e6fae8edf311.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶艺花瓶三维建模渲染图1](https://upload-images.jianshu.io/upload_images/13714448-2d2aa62bfcc970cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶泥3D打印机](https://upload-images.jianshu.io/upload_images/13714448-be899363ea8c020f.gif?imageMogr2/auto-orient/strip)
+
+![陶泥3D打印工艺品](https://upload-images.jianshu.io/upload_images/13714448-ce662eb6cbffaa14.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶艺花瓶三维建模渲染图2](https://upload-images.jianshu.io/upload_images/13714448-2c7428a4eb4826a3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶艺花瓶三维建模渲染图3](https://upload-images.jianshu.io/upload_images/13714448-deb3c3d1b01769b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 目录
+
+-   [1、前言：古老陶艺与先进科技的碰撞](#前言：古老陶艺与先进科技的碰撞)
+-   [2、陶艺STEM系列课程概述](#陶艺stem系列课程概述)
+    -   [课程核心目标](#课程核心目标)
+    -   [主创团队](#主创团队)
+    -   [依托平台与资源](#依托平台与资源)
+-   [3、课程体系构成](#课程体系构成)
+    -   [1、陶艺选修拓展性课程](#陶艺选修拓展性课程)
+        -   [课程目标](#课程目标)
+        -   [课程安排](#课程安排)
+        -   [课程大纲](#课程大纲)
+        -   [评价体系](#评价体系)
+    -   [2、陶泥3D打印智能科技](#陶泥3d打印智能科技)
+        -   [陶泥3D打印机介绍](#陶泥3d打印机介绍)
+        -   [陶泥3D打印制作流程](#陶泥3d打印制作流程)
+-   [4、STEM+时代下的陶艺课程](#stem时代下的陶艺课程)
+    -   [国家政策与行业背景：文化自信与遗产保护、3D技术与智能制造](#国家政策与行业背景文化自信与遗产保护3d技术与智能制造)
+    -   [Science：科学——从陶土颗粒说起](#science科学从陶土颗粒说起)
+    -   [Technology：技术——千年传承工艺，中华文化瑰宝](#technology技术千年传承工艺中华文化瑰宝)
+    -   [Engineering：工程——小小机械工程师，漫漫材料发展史](#engineering工程小小机械工程师漫漫材料发展史)
+        -   [机械与材料工程：从秦砖汉瓦到陶瓷混凝土](#机械与材料工程从秦砖汉瓦到陶瓷混凝土)
+        -   [土木与建造工程：从陶土到砖头，万丈高楼平地起](#土木与建造工程从陶土到砖头万丈高楼平地起)
+        -   [能源与动力工程：景德镇瓷窑的秘密](#能源与动力工程景德镇瓷窑的秘密)
+        -   [城市与环境工程：黄河水为什么是黄色的？](#城市与环境工程黄河水为什么是黄色的)
+    -   [Mathematics：数学——陶艺花瓶三维建模背后的立体几何原理](#mathematics数学陶艺花瓶三维建模背后的立体几何原理)
+        -   [立体几何——空间想象的头脑风暴](#立体几何空间想象的头脑风暴)
+        -   [三维建模软件与计算机图形学——从点线面到三维动画](#三维建模软件与计算机图形学从点线面到三维动画)
+    -   [Art：艺术与历史——在瓶底书刻隶仿前朝的飘逸](#art艺术与历史在瓶底书刻隶仿前朝的飘逸)
+        -   [陶艺承载的艺术与文化内涵：风从东方来](#陶艺承载的艺术与文化内涵风从东方来)
+        -   [创作你自己的陶艺品：亲吻大地母亲的馈赠](#创作你自己的陶艺品亲吻大地母亲的馈赠)
+        -   [陶艺品三维建模：方寸之间，创造世界](#陶艺品三维建模方寸之间创造世界)
+        -   [模型上色、涂饰：素胚勾勒出青花笔锋浓转淡](#模型上色涂饰素胚勾勒出青花笔锋浓转淡)
+        -   [三维空间的“神笔马良”——陶泥3D打印](#三维空间的神笔马良陶泥3d打印)
+-   [5、主要成果](#主要成果)
+    -   [1、校本课程研发与教材编写](#校本课程研发与教材编写)
+    -   [2、展示与交流](#展示与交流)
+-   [6、案例1：陶艺骆驼模型制作](#案例1陶艺骆驼模型制作)
+    -   [第一步：绘制草图，确定尺寸](#第一步绘制草图确定尺寸)
+    -   [第二步：搓制泥球，抟土造型](#第二步搓制泥球抟土造型)
+    -   [第三步：半成品](#第三步半成品)
+    -   [第四步：最终完成](#第四步最终完成)
+-   [7、案例2：3D打印陶泥花瓶模型制作](#案例23d打印陶泥花瓶模型制作)
+    -   [预备工作：组装陶泥3D打印机](#预备工作组装陶泥3d打印机-1)
+        -   [组装陶泥3D打印喷头](#组装陶泥3d打印喷头)
+        -   [组装陶泥3D打印机](#组装陶泥3d打印机)
+    -   [第一步：三维建模](#第一步三维建模-1)
+        -   [三维建模软件基本操作](#三维建模软件基本操作)
+        -   [创建物体](#创建物体)
+        -   [赋予颜色、材质，进行三维渲染](#赋予颜色材质进行三维渲染)
+    -   [第二步：将三维模型导入3D打印切片软件中](#第二步将三维模型导入3d打印切片软件中-1)
+    -   [第三步：3D打印成型](#第三步3d打印成型-1)
+    -   [第四步：对3D打印陶泥模型进行后处理](#第四步对3d打印陶泥模型进行后处理-1)
+        -   [小心取下模型，静待风干](#小心取下模型静待风干)
+        -   [上釉、描绘、涂饰](#上釉描绘涂饰)
+        -   [陶艺工艺品包装](#陶艺工艺品包装)
+-   [8、附件](#附件)
+    -   [课程大纲](#课程大纲-1)
+    -   [教案（五篇）](#教案五篇)
+    -   [教学案例记录（两篇）](#教学案例记录两篇)
+    -   [教学评价（四篇）](#教学评价四篇)
+    -   [教学反思（三篇）](#教学反思三篇)
+    -   [上课图片](#上课图片)
+    -   [课程进展过程中的难点](#课程进展过程中的难点)
 
 # 1、前言：古老陶艺与先进科技的碰撞
 
@@ -38,7 +109,7 @@
 
 
 
-# 2、陶艺STEM系列课程概述
+# 2、陶艺STEAM系列课程概述
 
 ## 课程核心目标
 
@@ -50,7 +121,7 @@
 
 课程策划与研发：张子豪（上海Stem云中心，同济大学在读研究生）
 
-陶泥3D打印机研发：清华大学、上海交通大学、同济大学、山东大学、重庆大学的大学生科技创新团队
+陶泥3D打印机研发：清华大学、上海交通大学、同济大学、山东大学、重庆大学等“双一流”建设高校的大学生科技创新团队
 
 ## 依托平台与资源
 
@@ -80,6 +151,8 @@
 2、课时安排：每周2节课。每学期总课时40节。每周一、三、五中午相应的时间段和周五下午“快乐活动日”。
 
 3、课外兴趣小组和学生社团，每周三、四中午和每周五下午兴趣活动。
+
+![循序渐进的陶艺课程](https://upload-images.jianshu.io/upload_images/13714448-a92af01f72f00830.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 课程大纲
 
@@ -187,6 +260,8 @@
 
 ![三维建模软件中创建基本几何体](https://upload-images.jianshu.io/upload_images/13714448-4999e904bcf38ba8.gif?imageMogr2/auto-orient/strip)
 
+![陶泥花瓶三维建模工程图纸](https://upload-images.jianshu.io/upload_images/13714448-7277e6fae8edf311.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ![陶泥花瓶三维建模](https://upload-images.jianshu.io/upload_images/13714448-91869307a9b3b618.gif?imageMogr2/auto-orient/strip)
 
 在三维建模软件中增加颜色、材质，渲染。
@@ -231,7 +306,9 @@
 
 ![3D打印陶泥工艺品](https://upload-images.jianshu.io/upload_images/13714448-89d76be2129441ca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-# 4、STEM+时代下的陶艺课程
+# 3、STEAM+时代下的陶艺课程
+
+![STEAM教育浪潮](https://upload-images.jianshu.io/upload_images/13714448-3fa4f727b1585016.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 国家政策与行业背景：文化自信与遗产保护、3D技术与智能制造
 
@@ -269,15 +346,21 @@
 
 从秦砖汉瓦到水泥混凝土，人类历史就是一部运用和发展陶泥材料的演化史。小小陶艺承载了跨学科的工程知识。
 
-### 机械与材料工程：从秦砖汉瓦到陶瓷混凝土
+### 机械与材料工程：从秦砖汉瓦到功能陶瓷材料
 
-为什么拉坯之前要摔打陶泥？陶泥3D打印机和陶泥拉坯机靠什么驱动？怎样确保精准的传动定位？机器怎么知道下一步应该向哪里走？通过拉坯、陶泥3D打印和陶泥花瓶三维建模，同学将系统体验材料成型的全套流程，并对陶泥这一粘塑性材料有基本认识和直观体验。
+为什么拉坯之前要摔打陶泥？陶泥3D打印机和陶泥拉坯机靠什么驱动？怎样确保精准的传动定位？机器怎么知道下一步应该向哪里走？通过艺术设计、工程制图、拉坯、陶泥3D打印和陶泥花瓶三维建模，同学将系统体验材料成型的全套流程，并对陶泥这一粘塑性材料有基本认识和直观体验。
 
 从女娲抟土造人到上帝捏出亚当，从秦砖汉瓦到水泥混凝土，人类历史就是一部运用和发展陶泥材料的演化史。陶泥3D打印让孩子零距离接触大地母亲，亲手使用各种工具，接触传承至今的古老工艺，并对机电控制和数字化智能制造有初步认识。
 
-为后续学习初中物理物态变化、牛顿力学定律、高中化学硅酸盐材料、通用技术、金工实习、机械原理奠定基础，学有余力的同学还可以进行进一步探索，制作自己的科创作品。
+为后续学习初中物理物态变化、牛顿力学定律、高中化学硅酸盐材料、通用技术、金工实习、机械原理奠定基础，学有余力的同学还可以进行进一步探索，发挥机械制图与三维建模专场，创作自己的科创作品。
+
+此外，还有半导体陶瓷、绝缘陶瓷、介电陶瓷、发光陶瓷、感光陶瓷、吸波陶瓷、激光用陶瓷、核燃料陶瓷、推进剂陶瓷、太阳能光转换陶瓷、贮能陶瓷、陶瓷固体电池、阻尼陶瓷、生物技术陶瓷、催化陶瓷、特种功能薄膜等，在自动控制、仪器仪表、电子、通讯、能源、交通、冶金、化工、精密机械、航空航天、国防等部门均发挥着重要作用。在奇妙的材料世界里还有许多未知的现象有待于我们去探究，相信随着科学技术的进一步发展，人类也必然会发掘出功能材料的新功能，并将其派上新用场。
 
  ![陶泥3D打印机](https://upload-images.jianshu.io/upload_images/13714448-a439c9eaf7256c00.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![半导体功能陶瓷材料](https://upload-images.jianshu.io/upload_images/13714448-bb413f48728773d9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 
 ### 土木与建造工程：从陶土到砖头，万丈高楼平地起
 
@@ -289,7 +372,11 @@
 
 三维建模培养了学生的空间想象能力，空间立体视图关系是后续学习画法几何以及工程制图的重要基础，学有余力的同学可以继续探索三维建模软件，创造出更好看的建筑模型。
 
+![从图纸到房屋](https://upload-images.jianshu.io/upload_images/13714448-5033733ee463fa8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ![三维建模制作别墅模型](https://upload-images.jianshu.io/upload_images/13714448-d73ea4a53b120339.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![万丈高楼平地起](https://upload-images.jianshu.io/upload_images/13714448-d7fc347fac189ad5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 能源与动力工程：景德镇瓷窑的秘密
 
@@ -300,6 +387,8 @@
 ![传统瓷窑作坊](https://upload-images.jianshu.io/upload_images/13714448-487bf04b837d85b1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![哥窑冰裂纹陶瓷工艺品](https://upload-images.jianshu.io/upload_images/13714448-74e7d552d7e8d2f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶泥花瓶焙烧内部热应力变化](https://upload-images.jianshu.io/upload_images/13714448-cbb9d62f36047722.gif?imageMogr2/auto-orient/strip)
 
 ### 城市与环境工程：黄河水为什么是黄色的？
 
@@ -325,7 +414,7 @@
 
 ![三维建模软件中创建基本几何体](https://upload-images.jianshu.io/upload_images/13714448-4999e904bcf38ba8.gif?imageMogr2/auto-orient/strip)
 
-![立体构成](https://upload-images.jianshu.io/upload_images/13714448-f7a6e8f29a2c162e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ### 三维建模软件与计算机图形学——从点线面到三维动画
 
@@ -336,6 +425,14 @@
 百度创始人李彦宏就是因为孩童时期受三维建模软件启发，励志投身于计算机图形学，最终在美国获得博士学位，回国创办了百度公司。
 
 ![建筑形体三维建模](https://upload-images.jianshu.io/upload_images/13714448-d8877f1e6e8a30f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶艺花瓶立体构成与三维建模工程制图](https://upload-images.jianshu.io/upload_images/13714448-ef3aae3dd2bc6ca7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶泥花瓶工程制图](https://upload-images.jianshu.io/upload_images/13714448-0ee5a6231660632a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶泥花瓶工程制图](https://upload-images.jianshu.io/upload_images/13714448-7b4ad7f38f2db404.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 
 ## Art：艺术与历史——在瓶底书刻隶仿前朝的飘逸
 
@@ -350,6 +447,12 @@
 > 现代陶瓷欣赏：威尼斯琉璃工艺、精细陶瓷、玻璃陶瓷、特种陶瓷。
 
 ![不同风格的瓷器](https://upload-images.jianshu.io/upload_images/13714448-27b696b56e213320.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶艺花瓶三维建模渲染图1](https://upload-images.jianshu.io/upload_images/13714448-4b0ad812371240de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶艺花瓶三维建模渲染图2](https://upload-images.jianshu.io/upload_images/13714448-2c7428a4eb4826a3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶艺花瓶三维建模渲染图3](https://upload-images.jianshu.io/upload_images/13714448-deb3c3d1b01769b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 创作你自己的陶艺品：亲吻大地母亲的馈赠
 
@@ -397,7 +500,7 @@
 
 
 
-# 5、主要成果
+# 4、主要成果
 
 ## 1、校本课程研发与教材编写
 
@@ -433,7 +536,7 @@
 
 
 
-# 6、案例1：陶艺骆驼模型制作
+# 5、案例1：陶艺骆驼模型制作
 
 骆驼陶艺模型制作属于陶艺选修拓展性课程的第三单元：捏塑成型，这个单元的课程涵盖如下三个阶段：
 
@@ -467,7 +570,7 @@
 
 
 
-# 7、案例2：3D打印陶泥花瓶模型制作
+# 6、案例2：3D打印陶泥花瓶模型制作
 
 ## 预备工作：组装陶泥3D打印机
 
@@ -485,6 +588,12 @@
 
 可以使用Windows10自带的建议三维建模软件3DBuilder进行建模，也可以使用更专业的3dsmax等工具进行三维建模，也可以使用教师事先做好的三维模型。
 
+对机械制图、工程制图、尺规作图、画法几何、工业设计、计算机辅助设计学有余力并特别感兴趣的同学，可以使用入门级的CAD软件，如Solidworks，Inentor等。
+
+![Solidworks](https://upload-images.jianshu.io/upload_images/13714448-a55628afed73a4a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![尺规作图](https://upload-images.jianshu.io/upload_images/13714448-8bc7d6fa11117330.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ### 三维建模软件基本操作
 
 - 旋转、平移、缩放视角
@@ -492,8 +601,15 @@
 - 创建基本几何模型：立方体、圆柱、棱柱、圆锥、棱锥
 - 旋转、平移、缩放模型本身
 - 增加颜色和材质
+- 工业设计、产品渲染
 
-### 创建物体
+![三维建模软件中创建基本几何体](https://upload-images.jianshu.io/upload_images/13714448-4999e904bcf38ba8.gif?imageMogr2/auto-orient/strip)
+
+### 机械制图：从立体构成到尺寸定位
+
+![陶泥花瓶的立体构成与工程制图](https://upload-images.jianshu.io/upload_images/13714448-a92e377566ab12b8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+### 三维建模创建物体
 
 ![陶泥花瓶三维建模](https://upload-images.jianshu.io/upload_images/13714448-91869307a9b3b618.gif?imageMogr2/auto-orient/strip)
 
@@ -503,7 +619,11 @@
 
 ![陶泥花瓶三维建模](https://upload-images.jianshu.io/upload_images/13714448-3883818432819593.gif?imageMogr2/auto-orient/strip)
 
+![陶艺花瓶三维建模渲染图1](https://upload-images.jianshu.io/upload_images/13714448-2d2aa62bfcc970cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+![陶艺花瓶三维建模渲染图2](https://upload-images.jianshu.io/upload_images/13714448-2c7428a4eb4826a3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![陶艺花瓶三维建模渲染图3](https://upload-images.jianshu.io/upload_images/13714448-deb3c3d1b01769b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
@@ -541,7 +661,7 @@
 
 
 
-# 8、附件
+# 7、附件
 
 [附件百度网盘链接](https://pan.baidu.com/s/1anC-0BmPS_jidaUogEVjjw)
 
@@ -595,10 +715,3 @@
 
 > 课程研发策划：张子豪（同济大学在读研究生，上海STEM云中心）
 >
-> 作者介绍：
->
-> 张子豪，同济大学在读研究生。微信公众号 **人工智能小技巧** 运营者。致力于将人工智能、3D打印等前沿科技与STEM教育结合。目前正在制作《说人话的人工智能视频教程》、《零基础入门树莓派趣味编程》、《Python趣味编程二十例》等视频教程。已助力成都石室中学、成都温江中学、江苏南菁中学、上海凉城二小、重庆沙坪坝小学等中小学完成多个STEM教育课程研发策划。
->
-> 微信公众号：**人工智能小技巧**   
->
-> 知乎专栏：**人工智能小技巧**   
