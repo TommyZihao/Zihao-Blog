@@ -301,7 +301,7 @@ make[2]: *** [modules/python3/CMakeFiles/opencv_python3.dir/build.make:63：modu
 make[1]: *** [CMakeFiles/Makefile2:21769：modules/python3/CMakeFiles/opencv_python3.dir/all] 错误 2  
 make: *** [Makefile:163：all] 错误 2  
 的错误标志（没有此错误的可以忽略）  
-这个可能是由于系统版本不同和树莓派版本的不兼容所致
+这个可能是由于系统版本不同和树莓派版本的不兼容所致  
 __解决方法如下：__
 首先找到/home/pi/Downloads/opencv-3.4.0/modules/python/src2 中的cv2.cpp文件，  
 然后在第885行把char* 改成 const char* 即可解决，最后继续上面的编译操作即可。  
