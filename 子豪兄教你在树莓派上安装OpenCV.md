@@ -281,29 +281,30 @@ cv2.__version__
 
 ## 编译过程中出现的问题
 - 1.在编译到75%左右时可能会出现openc_contrib 提示缺少boostdesc_bgm.i文件而出错
-这个是由于官方所给的那两个包不全，（没有此错误的可以忽略）
-解决方法如下:
+这个是由于官方所给的那两个包不全，（没有此错误的可以忽略）  
+__解决方法如下:__  
 可以在我的百度云盘里下载然后将所有带i结尾的文件全部都拷贝到 opencv_contrib/modules/xfeatures2d/src/ 路径下即可
-树莓派安装opencv时丢失的文件：
-链接：https://pan.baidu.com/s/1xi6_5NuTFiP4SD649FgIJw
-提取码：mbsj
-然后继续上面的编译操作即可
+树莓派安装opencv时丢失的文件：  
+链接：https://pan.baidu.com/s/1xi6_5NuTFiP4SD649FgIJw  
+提取码：mbsj  
+然后继续上面的编译操作即可。
 
-- 2.在编译到94%左右时可能会出现fatal error: opencv2/xfeatures2d/cuda.hpp: 没有那个文件或目录的错误标志 （没有此错误的可以忽略）
-这个是由于之前在树莓派的python2环境下安装了opencv所致
-解决方法如下：
-将/home/pi/Downloads/opencv_contrib-3.4.0/modules/xfeatures2d/include/opencv2目录下的xfeatures2d文件夹和xfeatures2d.hpp文件复制粘贴到
-/home/pi/Downloads/opencv-3.4.0/modules/stitching/include/opencv2目录下即可解决，
+- 2.在编译到94%左右时可能会出现fatal error: opencv2/xfeatures2d/cuda.hpp: 没有那个文件或目录的错误标志 （没有此错误的可以忽略）  
+这个是由于之前在树莓派的python2环境下安装了opencv所致  
+__解决方法如下：__  
+将/home/pi/Downloads/opencv_contrib-3.4.0/modules/xfeatures2d/include/opencv2目录下的  
+xfeatures2d文件夹和xfeatures2d.hpp文件复制粘贴到  
+/home/pi/Downloads/opencv-3.4.0/modules/stitching/include/opencv2目录下即可解决。
 
-- 3.对于树莓派4B，在编译到99%左右时可能会出现
-make[2]: *** [modules/python3/CMakeFiles/opencv_python3.dir/build.make:63：modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2.cpp.o] 错误 1
-make[1]: *** [CMakeFiles/Makefile2:21769：modules/python3/CMakeFiles/opencv_python3.dir/all] 错误 2
-make: *** [Makefile:163：all] 错误 2
-的错误标志（没有此错误的可以忽略）
+- 3.对于树莓派4B，在编译到99%左右时可能会出现  
+make[2]: *** [modules/python3/CMakeFiles/opencv_python3.dir/build.make:63：modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2.cpp.o] 错误 1  
+make[1]: *** [CMakeFiles/Makefile2:21769：modules/python3/CMakeFiles/opencv_python3.dir/all] 错误 2  
+make: *** [Makefile:163：all] 错误 2  
+的错误标志（没有此错误的可以忽略）  
 这个可能是由于系统版本不同和树莓派版本的不兼容所致
-解决方法如下：
-首先找到/home/pi/Downloads/opencv-3.4.0/modules/python/src2 中的cv2.cpp文件，
-然后在第885行把char* 改成 const char* 即可解决，最后继续上面的编译操作即可。
+__解决方法如下：__
+首先找到/home/pi/Downloads/opencv-3.4.0/modules/python/src2 中的cv2.cpp文件，  
+然后在第885行把char* 改成 const char* 即可解决，最后继续上面的编译操作即可。  
 
 
 
