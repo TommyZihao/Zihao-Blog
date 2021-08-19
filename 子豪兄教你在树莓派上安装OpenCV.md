@@ -309,6 +309,7 @@ make: *** [Makefile:163：all] 错误 2
 
 
 
+
 > 子豪兄批注：
 >
 > 我从2018年3月7日第一次尝试在树莓派上安装opencv，看了无数教程，历经无数次失败。有的教程要配置虚拟环境，有的要修改内存分配空间；有的教程使用树莓派四个cpu核心同时编译，每次都会报错；有的教程对新手小白极其不友好，完全不知该怎么操作。在七个月的努力成功之后，我想用我的血泪史书写本文，让每一个新手小白都能迅速上手而不是被bug卡到举目无亲。
@@ -338,6 +339,8 @@ make: *** [Makefile:163：all] 错误 2
 > [树莓派安装Python-OpenCV](https://blog.csdn.net/u014397533/article/details/50910531)
 >
 >  [基于树莓派3B+Python3.5的OpenCV3.4的配置教程](https://www.cnblogs.com/Pyrokine/p/8921285.html)
+>
+>[树莓派下opencv3.4.0的安装与错误处理](https://blog.csdn.net/weixin_43308627/article/details/97814927)
 
 ![树莓派接线](https://projects-static.raspberrypi.org/projects/raspberry-pi-getting-started/13aeb423985e6bacd5d798f5f206a644b7c250a3/en/images/pi-plug-in.gif)
 
