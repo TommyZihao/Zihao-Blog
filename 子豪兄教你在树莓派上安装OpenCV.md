@@ -277,7 +277,31 @@ cv2.__version__
 
 ![Python3的OpenCV安装完成](https://upload-images.jianshu.io/upload_images/13714448-8b4162cec9589cd6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+## 编译过程中出现的问题
+- 1.在编译到75%左右时可能会出现openc_contrib 提示缺少boostdesc_bgm.i文件而出错
+这个是由于官方所给的那两个包不全（没有此错误的可以忽略）  
+__解决方法如下:__  
+可以在百度云盘里下载然后将所有带i结尾的文件全部都拷贝到 opencv_contrib/modules/xfeatures2d/src/ 路径下即可
+树莓派安装opencv时丢失的文件：  
+链接：https://pan.baidu.com/s/1xi6_5NuTFiP4SD649FgIJw  
+提取码：mbsj  
+然后继续上面的编译操作即可。
 
+- 2.在编译到94%左右时可能会出现fatal error: opencv2/xfeatures2d/cuda.hpp: 没有那个文件或目录的错误标志 （没有此错误的可以忽略）  
+这个是由于之前在树莓派的python2环境下安装了opencv所致  
+__解决方法如下：__  
+将/home/pi/Downloads/opencv_contrib-3.4.0/modules/xfeatures2d/include/opencv2目录下的
+xfeatures2d文件夹和xfeatures2d.hpp文件复制粘贴到  
+/home/pi/Downloads/opencv-3.4.0/modules/stitching/include/opencv2目录下即可解决。
+
+- 3.对于树莓派4B，在编译到99%左右时可能会出现  
+make[2]: *** [modules/python3/CMakeFiles/opencv_python3.dir/build.make:63：modules/python3/CMakeFiles/opencv_python3.dir/__/src2/cv2.cpp.o] 错误 1  
+make[1]: *** [CMakeFiles/Makefile2:21769：modules/python3/CMakeFiles/opencv_python3.dir/all] 错误 2  
+make: *** [Makefile:163：all] 错误 2 的错误标志（没有此错误的可以忽略）  
+这个可能是由于系统版本不同和树莓派版本的不兼容所致  
+__解决方法如下：__  
+首先找到/home/pi/Downloads/opencv-3.4.0/modules/python/src2 中的cv2.cpp文件，
+然后在第885行把char* 改成 const char* 即可解决，最后继续上面的编译操作即可。  
 
 > 子豪兄批注：
 >
@@ -308,6 +332,8 @@ cv2.__version__
 > [树莓派安装Python-OpenCV](https://blog.csdn.net/u014397533/article/details/50910531)
 >
 >  [基于树莓派3B+Python3.5的OpenCV3.4的配置教程](https://www.cnblogs.com/Pyrokine/p/8921285.html)
+>
+>[树莓派下opencv3.4.0的安装与错误处理](https://blog.csdn.net/weixin_43308627/article/details/97814927)
 
 ![树莓派接线](https://projects-static.raspberrypi.org/projects/raspberry-pi-getting-started/13aeb423985e6bacd5d798f5f206a644b7c250a3/en/images/pi-plug-in.gif)
 
